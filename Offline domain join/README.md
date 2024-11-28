@@ -14,12 +14,6 @@
 djoin /provision /domain "ad.letsdoautomation.com" /machine "PC01" /savefile "C:\Users\%username%\Desktop\djoin\PC01.txt"
 ```
 
-<b>Create offline domain join file with specific OU:</b>
-
-```batch
-djoin /provision /domain "ad.letsdoautomation.com" /machine "PC02" /machineou "OU=NewComputers,DC=ad,DC=letsdoautomation,DC=com" /savefile "C:\Users\%username%\Desktop\djoin\PC02.txt"
-```
-
 <b>Create multiple offline domain join files:</b>
 
 ```powershell
