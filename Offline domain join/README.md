@@ -4,12 +4,19 @@
 
 [djoin](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ff793312(v=ws.11))
 
+<b>Objectives</b>
+
+* Create offline domain join file
+  * For single computer
+  * For multiple computers
+* Perform offline domain join on a computer that does not have network access to the domain controller 
+ 
 <b>Notes:</b>
 
 * Offline domain can be performed without connection to AD but connections is still required for first logon
   * Can be used with VPN before logon
 
-<b>Create offline domain join files:</b>
+<b>Create single offline domain join file:</b>
 
 ```batch
 djoin /provision /domain "ad.letsdoautomation.com" /machine "PC01" /savefile "C:\Users\%username%\Desktop\djoin\PC01.txt"
