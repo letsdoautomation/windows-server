@@ -37,5 +37,5 @@ foreach($computer in $computers){
 <b>Perform offline join:</b>
 
 ```batch
-djoin /requestodj /loadfile "C:\Users\admin\Desktop\NB05.txt" /windowspath C:\windows /localos
+djoin /requestodj /loadfile "C:\Users\%username%\Desktop\NB05.txt" /windowspath C:\windows /localos
 ```
