@@ -7,6 +7,7 @@
 <b>Notes:</b>
 
 * Offline domain can be performed without connection to AD but connections is still required for first logon
+  * Can be used with VPN before logon
 
 <b>Create offline domain join files:</b>
 
