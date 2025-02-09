@@ -4,7 +4,7 @@
 
 [djoin](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ff793312(v=ws.11))
 
-<b>Objectives</b>
+<b>Objectives:</b>
 
 * Create offline domain join file
   * For single computer
